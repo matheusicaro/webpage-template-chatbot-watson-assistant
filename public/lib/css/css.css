@@ -1,0 +1,97 @@
+.corp1{
+    width: 100%;
+    margin: 20px;
+    max-width: 95%;
+}
+
+.corp2{
+    display: -webkit-box;
+    max-width: 95%;
+    
+
+}
+
+.corp{
+    position: absolute;
+    top: 10%;
+}
+@media screen and (max-width: 767px){
+    .user{
+        background: #acc6f3;
+        display: table;
+        padding: 10px;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin-left: 14px;
+        max-width: 64%;
+    }
+}
+@media screen and (min-width: 800px){
+    .user{
+        background: #acc6f3;
+        display: table;
+        padding: 10px;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin-left: 14px;
+        max-width: 64%;
+    }
+}    
+
+@media screen and (max-width: 767px){
+    .balao{
+        background: #cfcfcd;
+        display: table;
+        padding: 10px;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin-left: 14px;
+        max-width: 64%;
+        
+    }
+}
+
+@media screen and (min-width: 800px){
+    .balao{
+        background: #cfcfcd;
+        display: table;
+        padding: 10px;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin-left: 20px;
+        max-width: 90%;
+    }
+}
+
+.row{
+    background-color: rgb(255, 255, 255);
+    overflow-y: auto;
+    height: 450px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+html { 
+    background-image: url('../../img/background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #0d0e13;
+    
+  }
+
+div{
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+body{
+
+    opacity: 0.9    ;
+}

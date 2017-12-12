@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="boot">
+<!--1. criando app model angular-->
+
+<head>
+
+	<script src="lib/angular/angular.js"></script>
+	<script> angular.module("boot", []); </script>
+	<script src="controller/controller.js"></script>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="lib/css/css.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Bootstrap library -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+</head>
+
+<body ng-controller="controller" style="font-size: 15px;" id="tes" >
+		
+	<!-- Tablet, Laptop, Desktop -->
+	<footer class="main-footer visible-sm visible-md visible-lg" style="padding: 10px;">
+		<div class="container" style="font-size: 12; text-align: center">
+			<strong>Matheus Ícaro - </strong> my <a href="https://www.linkedin.com/in/matheusicaro/">profile</a>
+		</div>
+	</footer>
+	
+	<!-- Mobile -->
+	<footer class="main-footer visible-xs">
+		<div class="container" style="font-size: 10; text-align: center;">
+			<strong>Matheus Ícaro - </strong> my <a href="https://www.linkedin.com/in/matheusicaro/">profile</a>
+		</div>
+	</footer>
+
+	<div class="col-xs-offset-1 col-xs-10 corp col-sm-offset-3 col-sm-6" style=" position: absolute">
+					
+		<div class="row" id="scroll" style="margin-left: 0px">
+			<div ng-repeat="message in messages" class="corp1" >
+				<div class="corp2">
+					
+					<img ng-if="message.isUser" src="/img/user.png" width="50px">
+					<img ng-if="!message.isUser" src="/img/ibm.png" width="50px">
+					
+					<div  ng-class="{'user': message.isUser, 'balao': !message.isUser}" style="padding-left: 10px">
+						{{message.message}}
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>	
+
+		<br/>
+
+		<input id="btn-input" class="form-control" ng-model="userMessage.text" type="text" placeholder="'Digite' sua mensagem..."></input>
+
+		<button style="margin-top: 10px" type="button" class="btn btn-primary pull-right" id="btn-enter" ng-click="sendMessage()">enviar</button>
+
+	</div>
+</body>
+
+</html>

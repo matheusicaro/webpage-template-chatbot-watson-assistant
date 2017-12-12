@@ -1,0 +1,18 @@
+{
+  "name": "bootoperador",
+  "version": "1.0.0",
+  "description": "",
+  "main": "angular.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "watson-developer-cloud": "^2.42.0"
+  }
+}
