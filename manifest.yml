@@ -1,0 +1,4 @@
+applications:
+- name: model-chatboot-mi
+  random-route: true
+  memory: 256M

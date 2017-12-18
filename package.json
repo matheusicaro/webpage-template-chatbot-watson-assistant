@@ -1,18 +1,18 @@
 {
-  "name": "bootoperador",
+  "name": "model-chatboot-mi",
   "version": "1.0.0",
-  "description": "",
-  "main": "angular.js",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "bootstrap": "^4.0.0-alpha.6",
     "express": "^4.16.2",
-    "jquery": "^3.2.1",
+    "cfenv": "1.0.x",
     "watson-developer-cloud": "^2.42.0"
+  },
+  "repository": {},
+  "engines": {
+    "node": "6.x"
   }
 }

@@ -1,3 +1,31 @@
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 50px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50px;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50px;
+  }
+
 .corp1{
     width: 100%;
     margin: 20px;
@@ -26,17 +54,6 @@
         max-width: 64%;
     }
 }
-@media screen and (min-width: 800px){
-    .user{
-        background: #acc6f3;
-        display: table;
-        padding: 10px;
-        border-radius: 10px;
-        padding-left: 10px;
-        margin-left: 14px;
-        max-width: 64%;
-    }
-}    
 
 @media screen and (max-width: 767px){
     .balao{
@@ -47,9 +64,20 @@
         padding-left: 10px;
         margin-left: 14px;
         max-width: 64%;
-        
     }
 }
+@media screen and (min-width: 800px){
+    .user{
+        background: #acc6f3;
+        display: table;
+        padding: 10px;
+        border-radius: 10px;
+        padding-left: 10px;
+        margin-left: 14px;
+        max-width: 64%;
+    }
+
+}    
 
 @media screen and (min-width: 800px){
     .balao{
@@ -61,6 +89,7 @@
         margin-left: 20px;
         max-width: 90%;
     }
+
 }
 
 .row{

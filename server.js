@@ -1,15 +1,19 @@
-//Criando servidor ouvir porta
+//declarações necessarias
+var cfenv = require('cfenv');
 var express = require('express');
-var app = express();
-var port = 3000;
-console.log('Server liste in port '+port);
-
 var bodyParser = require('body-parser');
 
+//acesso ao cloud foundry
+var appEnv = cfenv.getAppEnv();
 
-// serve the files out of ./public as our main files
+//Criando servidor ouvir porta
+var app = express();
+
+
+// jogando a pasta public para net, ou seja, somente ela estará disponivel  para acesso
 app.use(express.static(__dirname + '/public'));
 
+//limitando arquivos de transição
 app.use(bodyParser.urlencoded({
     extended: true,
     limit: '5mb'
@@ -55,5 +59,7 @@ app.post("/chat", function(req,res){
     })
 });
 
-app.listen(port);
+app.listen(appEnv.port, appEnv.bind, function() {
+    console.log("escutando na porta: "+appEnv.url)
+});
   
