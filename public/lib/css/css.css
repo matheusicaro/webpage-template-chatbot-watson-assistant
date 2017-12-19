@@ -1,3 +1,7 @@
+.centralizar{
+    margin-left: 25% !important;
+    float: none  !important;
+}
 .fa {
     padding: 10px;
     font-size: 30px;
