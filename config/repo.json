@@ -1,0 +1,17 @@
+{
+    "others": {
+        "name": "IBM Watson",
+        "color": "#3f66b9",
+        "tags": [
+            "Watson Assistant",
+            "Chatbot"
+        ]
+    },
+    "frontend": {
+        "name": "Angular",
+        "color": "#F44336",
+        "tags": [
+            "AngularJS v1.6.6"
+        ]
+    }
+}
