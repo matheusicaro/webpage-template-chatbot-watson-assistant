@@ -1,6 +1,6 @@
+
 {
-  "cloud": [
-    {
+  "cloud": {
       "name": "IBM Clound",
       "color": "#0D47A1",
       "tags": ["Watson Assistant"]
