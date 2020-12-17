@@ -1,30 +1,46 @@
 {
-   "cloud":[
+  "profile": {
+    "pt": {
+      "kind": "Open Source",
+      "name": "Webpage Para Conversar Com Um Chatbot Watson Assistant",
+      "intro": "Webpage template para conversar com um chatbot integrado com uma instância do Watson Assistant na IBM Cloud."
+    },
+    "en": {
+      "kind": "Open Source",
+      "name": "Webpage To Chat With An Chatbot Watson Assistant",
+      "intro": "Webpage template for chatting with a chatbot integrated with an instance of Watson Assistant on the IBM Cloud."
+    },
+    "es": {
+      "kind": "Open Source",
+      "name": "Webpage Para Chatear Con Una Asistente De Chatbot Watson",
+      "intro": "Webpage template para charlar con un chatbot integrado con una instancia de Watson Assistant en IBM Cloud."
+    }
+  },
+  "stack": {
+    "cloud": [
       {
-         "name":"IBM Cloud",
-         "color":"#0D47A1",
-         "tags":[
-            "Watson Assistant"
-         ]
+        "name": "IBM Cloud",
+        "tags": [
+          "Watson Assistant"
+        ]
       }
-   ],
-   "others":[
+    ],
+    "others": [
       {
-         "name":"IBM Watson",
-         "color":"#3f66b9",
-         "tags":[
-            "Watson Assistant",
-            "Chatbot"
-         ]
+        "name": "IBM Watson",
+        "tags": [
+          "Watson Assistant",
+          "Chatbot"
+        ]
       }
-   ],
-   "frontend":[
+    ],
+    "frontend": [
       {
-         "name":"Angular",
-         "color":"#F44336",
-         "tags":[
-            "AngularJS v1.6.6"
-         ]
+        "name": "Angular",
+        "tags": [
+          "AngularJS v1.6.6"
+        ]
       }
-   ]
+    ]
+  }
 }
