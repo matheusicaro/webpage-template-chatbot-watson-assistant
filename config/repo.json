@@ -36,7 +36,7 @@
     ],
     "frontend": [
       {
-        "name": "Angular",
+        "name": "AngularJS",
         "tags": [
           "AngularJS - v1.6.6",
           "JavaScript"
