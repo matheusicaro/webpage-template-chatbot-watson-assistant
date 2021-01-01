@@ -14,7 +14,12 @@
       "kind": "Open Source",
       "name": "Webpage Template Para Chatear Con Una Asistente De Chatbot Watson",
       "intro": "Webpage template para charlar con un chatbot integrado con una instancia de Watson Assistant en IBM Cloud."
-    }
+    },
+    "fr": {
+      "kind": "Open Source",
+      "name": "Webpage Template Pour discuter avec un chatbot Watson Assistant",
+      "intro": "Webpage template pour discuter avec un chatbot intégré avec une instance Watson Assistant sur IBM Cloud."
+    },
   },
   "stack": {
     "cloud": [
