@@ -21,6 +21,7 @@
       "intro": "Webpage template pour discuter avec un chatbot intégré avec une instance Watson Assistant sur IBM Cloud."
     }
   },
+  "tags": ["AngularJS", "JavaScript", "IBM Cloud",  "IBM Watson", "Watson Assistant", "Chatbot", "Front-end"],
   "stack": {
     "cloud": [
       {
